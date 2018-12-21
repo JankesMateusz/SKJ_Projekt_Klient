@@ -1,0 +1,20 @@
+
+#management{
+    -fx-border-width: 5px;
+    -fx-border-color: #252525;
+    -fx-background-color: #323232;
+    -fx-pref-height: 500px;
+    -fx-pref-width: 550px;
+}
+
+#downloads{
+    -fx-border-width: 5px;
+    -fx-border-color: #252525;
+    -fx-background-color: #616161;
+    -fx-pref-height: 400px;
+    -fx-pref-width: 550px;
+}
+
+#buttons{
+    -fx-pref-height: 150px;
+}
