@@ -3,7 +3,7 @@
     -fx-border-width: 5px;
     -fx-border-color: #252525;
     -fx-background-color: #323232;
-    -fx-pref-height: 500px;
+    -fx-pref-height: 400px;
     -fx-pref-width: 550px;
 }
 
@@ -11,10 +11,20 @@
     -fx-border-width: 5px;
     -fx-border-color: #252525;
     -fx-background-color: #616161;
-    -fx-pref-height: 400px;
+    -fx-pref-height: 300px;
+    -fx-pref-width: 550px;
+}
+
+#logField{
+    -fx-border-color: #252525;
+    -fx-border-width: 5px;
     -fx-pref-width: 550px;
 }
 
 #buttons{
     -fx-pref-height: 150px;
+}
+
+#log{
+    -fx-font-weight: bold;
 }
