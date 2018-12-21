@@ -15,7 +15,7 @@
             <TextField prefHeight="50" prefWidth="100" fx:id="ip" alignment="CENTER" >format: 0.0.0.0</TextField>
             <Button prefHeight="50" prefWidth="100" fx:id="insertPort" onAction="#setPort">Set Port</Button>
             <TextField prefHeight="50" prefWidth="100" fx:id="port" alignment="CENTER"> +10000 </TextField>
-            <Button prefHeight="50" prefWidth="150">File to download</Button>
+            <Button prefHeight="50" prefWidth="150" onAction="#check">File to download</Button>
             <Button prefHeight="50" prefWidth="100" fx:id="tracker" onAction="#addTracker">Add Tracker</Button>
         </HBox>
     </VBox>
