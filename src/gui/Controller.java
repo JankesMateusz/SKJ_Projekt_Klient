@@ -2,6 +2,7 @@ package gui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import networking.Connector;
 import networking.Peer;
@@ -17,6 +18,8 @@ public class Controller {
     Button insertIP, insertPort, tracker;
     @FXML
     TextField ip, port;
+    @FXML
+    TextArea log;
 
 
     public Controller(){
@@ -35,6 +38,7 @@ public class Controller {
             insertIP.setDisable(true);
 
             peer.setHostname(ip.getText());
+            log.appendText("Client's ip set to: " + ip.getText() + "\n");
         }
         else
             ip.setText("0.0.0.0");
@@ -50,6 +54,7 @@ public class Controller {
             insertPort.setDisable(true);
 
             peer.setPort(Integer.parseInt(port.getText()));
+            log.appendText("Client's port set to: " + port.getText() + "\n");
         }
         else{
             port.setText("+10000");
